@@ -1,8 +1,8 @@
 var createError = require('http-errors');
 var express = require('express');
 var path = require('path');
-var cookieParser = require('cookie-parser');
-var logger = require('morgan');
+var cookieParser = require('cookie-parser'); // middleware that simplifies handling cookies
+var logger = require('morgan'); // a HTTP logging library for Node. js. It is designed to be a simple and flexible tool for logging HTTP requests and responses in Node. js applications
 
 var indexRouter = require('./routes/index');
 var usersRouter = require('./routes/users');
